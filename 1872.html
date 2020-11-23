@@ -61,18 +61,67 @@
         image: 'https://cdn.statically.io/img/qqcdnpictest.mxplay.com/pic/a825dc18cb9923faee7dcd8c53e6c5d5/en/16x9/640x360/test_pic1597992288943.jpg?f=auto',
         title: 'Mastram (2020)',
         width: '100%',
-        height: '100%',
+        aspectratio: '16:9',
         autostart: 'true',
         primary: 'html5',
         logo: {
-          file: 'https://cdn.statically.io/img/prismic-io.s3.amazonaws.com/jw-v2%2F8dc43f6e-deeb-4745-b874-748c029aa501_viacom.svg?f=auto',
-          link: '/',
+          file: 'https://cdn.statically.io/img/www.uwatchfree.ag/logo.png?f=auto',
+          link: 'http://uwatchfreelive.blogspot.com/',
           hide: 'true',
           position: 'top-right'
         },
-        abouttext: 'viacom',
-        aboutlink: '/',
+        abouttext: 'UWatchFree',
+        aboutlink: 'http://uwatchfreelive.blogspot.com/',
         playbackRateControls: [0.25, 0.5, 0.75, 1, 2, 3, 4],
+        tracks:[{
+          file:"",
+          label:"English",
+          kind:"captions"
+        }],
+        captions: {color:"#FFFF00",fontSize:15,edgeStyle:"uniform",backgroundOpacity:0,
+                 },
+      advertising: {
+        client: 'vast',
+        admessage:"This is an ad pod. This ad ends in xx seconds.",
+        schedule: {
+          adbreak1: {
+            offset:"pre",tag:"https://vast.yomeno.xyz/?tcid=1539"
+          },
+            overlay: {
+              offset:"5",tag: "overlay.xml",type:"nonlinear"
+            },
+          adbreak2: {
+            offset:"25%",tag:"https://vast.yomeno.xyz/?tcid=1539"
+          },
+            overlay: {
+              offset:"5",tag: "overlay.xml",type:"nonlinear"
+            },
+          adbreak3: {
+            offset:"50%",tag:"https://vast.yomeno.xyz/?tcid=1539"
+          },
+          overlay: {
+            offset:"5", tag:"overlay.xml",type:"nonlinear"
+          },
+          adbreak4: {
+            offset:"75%",tag:"https://vast.yomeno.xyz/?tcid=1539"
+          },
+          overlay: {
+            offset:"5", tag:"overlay.xml",type:"nonlinear"
+          },
+          adbreak5: {
+            offset:"100%",tag:"https://vast.yomeno.xyz/?tcid=1539"
+          },
+          overlay: {
+            offset:"5", tag:"overlay.xml",type:"nonlinear"
+          },
+          adbreak6: {
+            offset:"12.5%",tag:"https://vast.yomeno.xyz/?tcid=1539"
+          },
+          overlay: {
+            offset:"5", tag:"overlay.xml",type:"nonlinear"
+          }
+        }
+      }
     });
 </script>
 </body>
