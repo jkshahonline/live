@@ -1,0 +1,35 @@
+<head>
+<script src='https://ssl.p.jwpcdn.com/player/v/8.17.3/jwplayer.js'></script>
+<script type='text/javascript'>jwplayer.key = "ITWMv7t88JGzI0xPwW8I0+LveiXX9SWbfdmt0ArUSyc=";</script>
+</head>
+<body>
+
+<center><div id="myElement">Loading...</div></center>
+<script type="text/javascript">
+    jwplayer('myElement').setup({
+  "playlist": [
+    {
+      "sources": [
+        {
+          "default": true,
+          "type": "mpd",
+          "file": "https://tataskylinear.pc.cdn.bitgravity.com/delta9/out/i/2112642.mpd",
+          "drm": {
+            "widevine": {
+              "url": "https://tatasky.live.ott.irdeto.com/Widevine/getlicense?CrmId=tatasky&AccountId=tatasky&ContentId=400000119&SessionId=DE3835F4ED82BC11&Ticket=1E9E777ED1B05A37"
+            }
+          },
+          "label": "0"
+        }
+      ]
+    }
+  ],
+  "primary": "html5",
+  "width": "100%",
+  "height": "100%",
+  "hlshtml": true,
+  "autostart": true
+});
+</script>
+</body>
+</html>
